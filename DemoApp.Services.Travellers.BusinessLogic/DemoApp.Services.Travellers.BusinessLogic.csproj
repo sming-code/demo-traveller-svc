@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SmingCode.Utilities.Kafka" Version="1.0.26" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DemoApp.Services.Travellers.Domain\DemoApp.Services.Travellers.Domain.csproj" />
+    <ProjectReference Include="..\DemoApp.Services.Travellers.Dependencies\DemoApp.Services.Travellers.Dependencies.csproj" />
+  </ItemGroup>
+
+</Project>
