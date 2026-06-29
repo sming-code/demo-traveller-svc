@@ -29,7 +29,7 @@ spec:
               value: kafka-0.kafka-service.kafka.svc.cluster.local:29092
             - name: Kafka__SecurityProtocol
               value: Plaintext
-            - name: ConnectionStrings__CustomersDatabase
+            - name: ConnectionStrings__TravellersDatabase
               value: "Server=sql-server.data.svc;Database=Customer;User Id=sa;Password=LetMeIn!2;TrustServerCertificate=True;"
           resources: {}
 ---
