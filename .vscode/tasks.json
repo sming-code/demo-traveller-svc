@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/DemoApp.Services.Customers.Api/DemoApp.Services.Customers.Api.csproj",
+                "${workspaceFolder}/DemoApp.Services.Travellers.Api/DemoApp.Services.Travellers.Api.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -19,7 +19,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/DemoApp.Services.Customers.Worker/DemoApp.Services.Customers.Worker.csproj",
+                "${workspaceFolder}/DemoApp.Services.Travellers.Worker/DemoApp.Services.Travellers.Worker.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -31,7 +31,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/DemoApp.Services.Customers.Api/DemoApp.Services.Customers.Api.csproj",
+                "${workspaceFolder}/DemoApp.Services.Travellers.Api/DemoApp.Services.Travellers.Api.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary;ForceNoAlign"
             ],
@@ -45,7 +45,7 @@
                 "watch",
                 "run",
                 "--project",
-                "${workspaceFolder}/DemoApp.Services.Customers.Api/DemoApp.Services.Customers.Api.csproj"
+                "${workspaceFolder}/DemoApp.Services.Travellers.Api/DemoApp.Services.Travellers.Api.csproj"
             ],
             "problemMatcher": "$msCompile"
         }

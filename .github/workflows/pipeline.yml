@@ -23,7 +23,7 @@ jobs:
     - name: Display done
       run: echo "Variables loaded..."
     outputs:
-      project-name-root: DemoApp.Services.Customers
+      project-name-root: DemoApp.Services.Travellers
       image-name-root: demo-customer-svc
       version-no: ${{ steps.get-version.outputs.version-no }}
       last-release-tag: ${{ steps.get-version.outputs.last-release-tag }}

@@ -10,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build-api",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/DemoApp.Services.Customers.Api/bin/Debug/net10.0/DemoApp.Services.Customers.Api.dll",
+            "program": "${workspaceFolder}/DemoApp.Services.Travellers.Api/bin/Debug/net10.0/DemoApp.Services.Travellers.Api.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/DemoApp.Services.Customers.Api",
+            "cwd": "${workspaceFolder}/DemoApp.Services.Travellers.Api",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {
@@ -22,7 +22,7 @@
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
                 "Service_Name": "customer-svc",
-                "ConnectionStrings__CustomersDatabase": "Data Source=/home/matt/data/customer2.db"
+                "ConnectionStrings__TravellersDatabase": "Data Source=/home/matt/data/customer2.db"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
@@ -37,9 +37,9 @@
             "request": "launch",
             "preLaunchTask": "build-worker",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/DemoApp.Services.Customers.Worker/bin/Debug/net10.0/DemoApp.Services.Customers.Worker.dll",
+            "program": "${workspaceFolder}/DemoApp.Services.Travellers.Worker/bin/Debug/net10.0/DemoApp.Services.Travellers.Worker.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/DemoApp.Services.Customers.Worker",
+            "cwd": "${workspaceFolder}/DemoApp.Services.Travellers.Worker",
             "stopAtEntry": false,
             // Enable launching a web browser when ASP.NET Core starts. For more information: https://aka.ms/VSCode-CS-LaunchJson-WebBrowser
             "serverReadyAction": {
@@ -49,7 +49,7 @@
             "env": {
                 "ASPNETCORE_ENVIRONMENT": "Development",
                 "Service_Name": "customer-svc-worker",
-                "ConnectionStrings__CustomersDatabase": "Data Source=/home/matt/data/customer2.db"
+                "ConnectionStrings__TravellersDatabase": "Data Source=/home/matt/data/customer2.db"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"

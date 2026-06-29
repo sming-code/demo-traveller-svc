@@ -24,7 +24,7 @@ jobs:
     - name: Display done
       run: echo "Variables loaded..."
     outputs:
-      project-name: DemoApp.Services.Customers.Api
+      project-name: DemoApp.Services.Travellers.Api
       image-name: demo-customer-svc-api
       dockerfile-name: Dockerfile.api
       

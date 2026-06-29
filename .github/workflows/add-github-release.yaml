@@ -22,4 +22,4 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Run create script
-        run: gh release create v${{ inputs.version-number }} --generate-notes --notes-start-tag ${{ inputs.previous-tag }} -t "DemoApp.CustomerService v${{ inputs.version-number }}"
+        run: gh release create v${{ inputs.version-number }} --generate-notes --notes-start-tag ${{ inputs.previous-tag }} -t "DemoApp.TravellerService v${{ inputs.version-number }}"
